@@ -31,7 +31,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/base_link.STL" />
+          filename="package://nanorobot_description/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -45,7 +45,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/base_link.STL" />
+          filename="package://nanorobot_description/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -71,7 +71,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/imu.STL" />
+          filename="package://nanorobot_description/meshes/imu.STL" />
       </geometry>
       <material
         name="">
@@ -85,7 +85,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/imu.STL" />
+          filename="package://nanorobot_description/meshes/imu.STL" />
       </geometry>
     </collision>
   </link>
@@ -124,7 +124,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/base_camera_link.STL" />
+          filename="package://nanorobot_description/meshes/base_camera_link.STL" />
       </geometry>
       <material
         name="">
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/base_camera_link.STL" />
+          filename="package://nanorobot_description/meshes/base_camera_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -177,7 +177,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/base_laser_link.STL" />
+          filename="package://nanorobot_description/meshes/base_laser_link.STL" />
       </geometry>
       <material
         name="">
@@ -191,7 +191,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/base_laser_link.STL" />
+          filename="package://nanorobot_description/meshes/base_laser_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -230,7 +230,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/left_wheel_link.STL" />
+          filename="package://nanorobot_description/meshes/left_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -244,7 +244,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/left_wheel_link.STL" />
+          filename="package://nanorobot_description/meshes/left_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -286,7 +286,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/right_wheel_link.STL" />
+          filename="package://nanorobot_description/meshes/right_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -300,7 +300,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/right_wheel_link.STL" />
+          filename="package://nanorobot_description/meshes/right_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -342,7 +342,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/ball_wheel_link.STL" />
+          filename="package://nanorobot_description/meshes/ball_wheel_link.STL" />
       </geometry>
       <material
         name="">
@@ -356,7 +356,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://robot_description/meshes/ball_wheel_link.STL" />
+          filename="package://nanorobot_description/meshes/ball_wheel_link.STL" />
       </geometry>
     </collision>
   </link>
