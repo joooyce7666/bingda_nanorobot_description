@@ -5,7 +5,18 @@
   <param name="/use_sim_time" value="true" />  
   
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find nanorobot_description)/worlds/room.world"/>
+    <!-- <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_home.world"/> -->
+    <!-- <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_office.world"/> -->
+    <!-- <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_office_walls_only.world"/> -->
+    <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_office_walls_only_blocked.world"/>
+
+    
+    <!-- <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_office_blocked.world"/> -->
+    <!-- <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_hotal1.world"/> -->
+    <!-- <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_hotal3.world"/> -->
+    <!-- <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_hotal.world"/> -->
+    <!-- <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_hotal_blocked.world"/> -->
+    <!-- <arg name="world_name" value="$(find nanorobot_description)/worlds/indoors_isolated3.world"/> -->
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
@@ -14,9 +25,14 @@
   </include>
 
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(find nanorobot_description)/urdf/robot_description.urdf.xacro" />
+  <param name="robot_description_rviz" command="$(find xacro)/xacro $(find nanorobot_description)/urdf/robot_description.urdf --inorder" />
 
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model robot_description -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
 
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
 
 </launch>
+
+
+
+  
